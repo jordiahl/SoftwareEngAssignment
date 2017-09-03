@@ -1,0 +1,61 @@
+#searchBar {
+  margin: 15px 10px;
+}
+
+.tableWrapper {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.addBtn{
+  background-color: orangered;
+}
+.deleteBtn{
+  background-color: darkblue;
+}
+
+.modifiedBtn{
+  color: white;
+}
+.modifiedBtn:visited{
+  color:white;
+}
+.modifiedBtn:hover{
+  color: lightgrey;
+}
+.modifiedBtn:focus{
+  color: lightgray;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #fceee3; // Choose your own color here
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: #d9effc;
+}
+
+.orangeSearch{
+  color: white;
+  background-color: orangered;
+  border: orangered;
+}
+
+tbody{
+  overflow-y: scroll;
+  height: 350px;
+
+  position: absolute;
+}
+
+tr {
+  width: 100%;
+  display: inline-table;
+}
+
+table{
+  height:350px;
+  display: -moz-groupbox;
+}
