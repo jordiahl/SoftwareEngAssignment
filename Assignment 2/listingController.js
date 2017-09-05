@@ -9,8 +9,10 @@ angular.module('listings').controller('ListingsController', ['$scope', 'Listings
           as described in the assignment spec.
          */
         $scope.addListing = function () {
-            $scope.listings.unshift($scope.createdEntry);
-            $scope.createdEntry = {};
+            if ($scope.createdEntry.code != undefined && $scope.createdEntry.name != undefined ){
+                $scope.listings.unshift($scope.createdEntry);
+                $scope.createdEntry = {};
+            }
         };
         $scope.deleteListing = function () {
 
