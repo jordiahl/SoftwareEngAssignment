@@ -1,4 +1,4 @@
 # SoftwareEngAssignment
 
 
-[](https://github.com/jordiahl/SoftwareEngAssignment/blob/master/gitBashPicture.PNG)
+![](https://github.com/jordiahl/SoftwareEngAssignment/blob/master/gitBashPicture.PNG)
